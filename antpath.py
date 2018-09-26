@@ -46,4 +46,3 @@ else:
     o = open("OUTPUT", "w")
     o.write(str.format("%f" % (d1 + d2 + d3)))
     o.close()
-print(open("OUTPUT").read())
